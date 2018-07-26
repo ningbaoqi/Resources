@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:insetBottom android:insetLeft android:insetRight android:insetTop表示底部、左部、右部、上部内凹的大小-->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetBottom="15dp"
+    android:insetLeft="15dp"
+    android:insetRight="15dp"
+    android:insetTop="15dp">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/colorAccent" />
+    </shape>
+</inset>
