@@ -18,4 +18,4 @@
 ### ScaleDrawable
 [ScaleDrawable](https://github.com/ningbaoqi/Resources/commit/6cb8fbb0b4110b36a83b840d60636967d886bb0e)；可以根据自己的等级将指定的Drawable缩放到一定比例；等级0表示ScaleDrawable不可见，这是默认值，要想ScaleDrawable可见，需要等级不能为0；ScaleDrawable的级别为最大值10000，那么就没有缩放的效果，如果ScaleDrwaable的级别越大，那么内部的Drawable看起来就越大，如果ScaleDrawable的XML中所定义的缩放比例越大，那么内部的Drawable看起来就越小；
 ### ClipDrawable
-[ClipDrawable](https://github.com/ningbaoqi/Resources/commit/55a8c10d59ea5a567a3394beeb0cca1ca5017a5e)；可以根据自己当前的等级(level)来从裁剪另外一个Drawable，裁剪方向可以通过android:clipOrientation和android:gravity这两个属性来共同控制；
+[ClipDrawable](https://github.com/ningbaoqi/Resources/commit/55a8c10d59ea5a567a3394beeb0cca1ca5017a5e)；可以根据自己当前的等级(level)来从裁剪另外一个Drawable，裁剪方向可以通过android:clipOrientation和android:gravity这两个属性来共同控制；使用ClipDrawable对象时可调用setLevel(int level)方法来设置截取的区域大小，当level为0时，截取的图片片段为空，当level为10000时，截取整张图片；
