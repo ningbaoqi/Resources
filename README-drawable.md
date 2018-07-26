@@ -21,3 +21,6 @@
 [ClipDrawable](https://github.com/ningbaoqi/Resources/commit/899ca1e903a8e4de0e544cd3ae19b01caeab87e2)；可以根据自己当前的等级(level)来从裁剪另外一个Drawable，裁剪方向可以通过android:clipOrientation和android:gravity这两个属性来共同控制；使用ClipDrawable对象时可调用setLevel(int level)方法来设置截取的区域大小，当level为0时，截取的图片片段为空，当level为10000时，截取整张图片；
 
 ![image](https://github.com/ningbaoqi/Resources/blob/master/gif/clip.gif) 
+
+### 自定义Drawble
+[自定义Drawble](https://github.com/ningbaoqi/Resources/commit/55a8c10d59ea5a567a3394beeb0cca1ca5017a5e)；
