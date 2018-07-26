@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:constantSize StateListDrawable的固有大小是否不随着其状态的改变而改变 默认为false-->
+<!--android:dither 是否开启抖动效果 默认为true-->
+<!--android:variablePadding 表示padding是否随着其状态的改变而改变 true改变 false不改变-->
+<!--android:state_pressed 表示按下状态，被按下后没有松开的状态-->
+<!--android:state_focused 表示View已经获取了焦点-->
+<!--android:state_selected 表示用户选择了View-->
+<!--android:state_checked 表示用户选中了View，一般适用于checkbox等-->
+<!--android:state_enabled 表示当前View处于可用状态-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true" android:dither="true" android:variablePadding="true">
+    <item android:drawable="@drawable/ic_launcher_background" android:state_activated="true" android:state_checkable="true" android:state_checked="true" android:state_enabled="true" android:state_focused="true" android:state_hovered="true" android:state_pressed="true" android:state_selected="true" android:state_window_focused="true" />
+    <item android:drawable="@drawable/ic_launcher_background" />
+</selector>
