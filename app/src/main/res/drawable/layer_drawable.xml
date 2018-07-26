@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--一个layer-list中可以包含多个item；每个item表示一个drawable，上下左右属性表示的是drawable相对于view的上下左右的偏移量，单位是像素，可以使用android:drawable属性直接引用一个已有的drawable-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/resource"
+        android:bottom="30dp"
+        android:drawable="@drawable/ic_launcher_background"
+        android:left="40dp"
+        android:right="20dp"
+        android:top="10dp" />
+</layer-list>
