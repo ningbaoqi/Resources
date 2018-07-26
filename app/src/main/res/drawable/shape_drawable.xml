@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:shape 图形的形状；rectangle:矩形 oval：椭圆 line：横线 ring：圆环 ；line ring必须通过stroke表示线宽和颜色，否则无法达到效果; ring特殊的属性：android:thickness 圆环的厚度 android:innerRadius 圆环的内半径 android:innerRadiusRatio 内半径占整个drawable宽度的比例  android:thicknessRatio 厚度占整个drawable宽度的比例 android:useLevel 一般使用false-->
+<!--corners 表示shape的四个角的角度；只适用矩形 android:radius 为四个角同时设置相同的角度，优先级较低会被覆盖 android:topLeftRadius 左上角 android:topRightRadius 右上角  android:bottomLeftRadius 左下角  android:bottomRightRadius  右下角-->
+<!--gradient 渐变色 与solid相互排斥 android:angle 渐变的角度 android:centerX 渐变的中心点的横坐标 android:centerY 渐变的中心点的纵坐标 android:startColor 起始色  android:endColor 结束色  android:gradientRadius 渐变半径  仅仅当android:type="radial"时有效  android:useLevel 一般为false，当drawable作为StateListDrawable使用时为true  android:type 渐变类型，linear线性渐变，radial径向渐变，sweep扫描线渐变-->
+<!--solid 纯色填充-->
+<!--stroke 描边  android:width 描边的宽度 android:color 描边的颜色 android:dashWidth 组成虚线的线段的宽度 android:dashGap 组成虚线的线段之间的间隔-->
+<!--padding 表示包含它的View的空白-->
+<!--size shape的大小-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners
+        android:bottomLeftRadius="2dp"
+        android:bottomRightRadius="3dp"
+        android:radius="2dp"
+        android:topLeftRadius="5dp"
+        android:topRightRadius="6dp" />
+    <gradient
+        android:angle="1dp"
+        android:centerColor="@color/colorPrimary"
+        android:centerX="2dp"
+        android:centerY="2dp"
+        android:endColor="@color/colorAccent"
+        android:gradientRadius="5dp"
+        android:startColor="@color/colorPrimaryDark"
+        android:type="linear"
+        android:useLevel="false" />
+    <padding
+        android:bottom="5dp"
+        android:left="2dp"
+        android:right="1dp"
+        android:top="20dp" />
+    <size
+        android:width="100dp"
+        android:height="200dp" />
+    <solid android:color="@color/colorAccent" />
+    <stroke
+        android:width="20dp"
+        android:color="@color/colorAccent"
+        android:dashGap="20dp"
+        android:dashWidth="100dp" />
+</shape>

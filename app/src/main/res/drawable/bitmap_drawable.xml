@@ -10,7 +10,7 @@
     android:antialias="true"
     android:dither="true"
     android:filter="true"
-    android:gravity="top|ottom"
+    android:gravity="top|bottom"
     android:mipMap="true"
     android:src="@drawable/ic_launcher_background"
     android:tileMode="disabled" />
