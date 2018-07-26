@@ -10,3 +10,6 @@
 [StateListDrawable](https://github.com/ningbaoqi/Resources/commit/f7c1dcb1beaca0b2341a81e534e8e74ce687a17c)；表示Drawable的集合，每个Drawable都对应着View的一个状态，这样系统就会根据View的状态来选择合适的Drawable；
 ### LevelListDrawable
 [LevelListDrawable](https://github.com/ningbaoqi/Resources/commit/e548a12176c926155cba31be9e4e7f4bd80455dd)；表示一个Drawable的集合，集合中的每个Drawable都有一个等级的概念，根据不同的等级，LevelListDrawable会切换为对应的Drawable；
+### TransitionDrawable
+[TransitionDrawable](https://github.com/ningbaoqi/Resources/commit/202fe5beb870887ca363206110af4a5d40de3f84)；用于实现两个drawable之间的淡入淡出效果；
+
