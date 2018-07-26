@@ -22,5 +22,5 @@
 
 ![image](https://github.com/ningbaoqi/Resources/blob/master/gif/clip.gif) 
 
-### 自定义Drawble
-[自定义Drawble](https://github.com/ningbaoqi/Resources/commit/55a8c10d59ea5a567a3394beeb0cca1ca5017a5e)；
+### 自定义Drawable
+[自定义Drawable](https://github.com/ningbaoqi/Resources/commit/55a8c10d59ea5a567a3394beeb0cca1ca5017a5e)
