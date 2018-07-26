@@ -16,4 +16,4 @@
 ### InsetDrawable
 [InsetDrawable](https://github.com/ningbaoqi/Resources/commit/01c08662b28c886161de90a64ed1c1b2555d6bc0)；可以将其他Drawalebe内嵌到自己当中，并可以在四周留出一定的间距，当一个View希望自己的背景比自己的实际区域小的时候，可以采用InsetDrawable来实现；
 ### ScaleDrawable
-[ScaleDrawable](https://github.com/ningbaoqi/Resources/commit/01c08662b28c886161de90a64ed1c1b2555d6bc0)；可以根据自己的等级将指定的Drawable缩放到一定比例；等级0表示ScaleDrawable不可见，这是默认值，要想ScaleDrawable可见，需要等级不能为0；
+[ScaleDrawable](https://github.com/ningbaoqi/Resources/commit/01c08662b28c886161de90a64ed1c1b2555d6bc0)；可以根据自己的等级将指定的Drawable缩放到一定比例；等级0表示ScaleDrawable不可见，这是默认值，要想ScaleDrawable可见，需要等级不能为0；ScaleDrawable的级别为最大值10000，那么就没有缩放的效果，如果ScaleDrwaable的级别越大，那么内部的Drawable看起来就越大，如果ScaleDrawable的XML中所定义的缩放比例越大，那么内部的Drawable看起来就越小；
