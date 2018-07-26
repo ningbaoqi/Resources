@@ -15,3 +15,5 @@
 [TransitionDrawable](https://github.com/ningbaoqi/Resources/commit/202fe5beb870887ca363206110af4a5d40de3f84)；用于实现两个drawable之间的淡入淡出效果；
 ### InsetDrawable
 [InsetDrawable](https://github.com/ningbaoqi/Resources/commit/01c08662b28c886161de90a64ed1c1b2555d6bc0)；可以将其他Drawalebe内嵌到自己当中，并可以在四周留出一定的间距，当一个View希望自己的背景比自己的实际区域小的时候，可以采用InsetDrawable来实现；
+### ScaleDrawable
+[ScaleDrawable](https://github.com/ningbaoqi/Resources/commit/01c08662b28c886161de90a64ed1c1b2555d6bc0)；可以根据自己的等级将指定的Drawable缩放到一定比例；等级0表示ScaleDrawable不可见，这是默认值，要想ScaleDrawable可见，需要等级不能为0；
