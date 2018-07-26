@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--android:src 图片的资源ID-->
+<!--android:antialias 是否开启图片抗锯齿功能；开启后会让图片变得平滑，同时也会在一定程度上降低图片的清晰度，应该开启-->
+<!--android:dither 是否开启抖动效果 当图片的像素配置和手机屏幕的像素配置不一致时，开启这个选项可以让高质量的图片在低质量的屏幕上还能保持较好的显示效果 该配置应该开启-->
+<!--android:filter 是否开启过滤效果；当图片尺寸被拉伸或者压缩时，开启过滤效果可以保持较好的显示效果 该属性应该开启-->
+<!--android:mipMap 纹理映射，默认false，不常用-->
+<!--android:tileMode 平铺模式 disabled：关闭平铺；当开启平铺模式后，gravity属性就会被忽略； repeat：简单的水平和垂直方向上的平铺效果；mirror：表示在水平和竖直方向上的镜面投影效果；clamp：表示图片四周的像素会扩展到周围区域-->
+<!--android:gravity 表示图片小于容器的尺寸时，设置此选项可以对图片进行定位-->
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:antialias="true"
+    android:dither="true"
+    android:filter="true"
+    android:gravity="top|ottom"
+    android:mipMap="true"
+    android:src="@drawable/ic_launcher_background"
+    android:tileMode="disabled" />

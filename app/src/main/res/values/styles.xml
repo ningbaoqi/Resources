@@ -1,26 +1,24 @@
 <resources>
-    <resources>
-        <!-- 继承父样式的样式 -->
-        <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-            <!-- Customize your theme here. -->
-            <item name="colorPrimary">@color/colorPrimary</item>
-            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-            <item name="colorAccent">@color/colorAccent</item>
-        </style>
-        <!--定义样式-->
-        <style name="textStyle">
-            <item name="android:textColor">@color/black</item>
-            <item name="android:textSize">@dimen/dimen_18sp</item>
-            <item name="android:layout_width">match_parent</item>
-            <item name="android:layout_height">wrap_content</item>
-        </style>
-        <!--继承原有样式并重写父类的属性-->
-        <style name="subStyle" parent="textStyle">
-            <item name="android:textColor">@color/blue</item>
-        </style>
-        <!--继承原有样式的另一种方法-->
-        <style name="textStyle.abc">
-            <item name="android:textColor">@color/black</item>
-        </style>
-    </resources>
+    <!-- 继承父样式的样式 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--定义样式-->
+    <style name="textStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/dimen_18sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!--继承原有样式并重写父类的属性-->
+    <style name="subStyle" parent="textStyle">
+        <item name="android:textColor">@color/blue</item>
+    </style>
+    <!--继承原有样式的另一种方法-->
+    <style name="textStyle.abc">
+        <item name="android:textColor">@color/black</item>
+    </style>
 </resources>
