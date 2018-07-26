@@ -12,4 +12,5 @@
 [LevelListDrawable](https://github.com/ningbaoqi/Resources/commit/e548a12176c926155cba31be9e4e7f4bd80455dd)；表示一个Drawable的集合，集合中的每个Drawable都有一个等级的概念，根据不同的等级，LevelListDrawable会切换为对应的Drawable；
 ### TransitionDrawable
 [TransitionDrawable](https://github.com/ningbaoqi/Resources/commit/202fe5beb870887ca363206110af4a5d40de3f84)；用于实现两个drawable之间的淡入淡出效果；
-
+### InsetDrawable
+[InsetDrawable](https://github.com/ningbaoqi/Resources/commit/01c08662b28c886161de90a64ed1c1b2555d6bc0)；可以将其他Drawalebe内嵌到自己当中，并可以在四周留出一定的间距，当一个View希望自己的背景比自己的实际区域小的时候，可以采用InsetDrawable来实现；
