@@ -8,3 +8,5 @@
 [LayerDrawable](https://github.com/ningbaoqi/Resources/commit/55e9fca94edea51870b2f6193fc8499192a201cf)；表示一种层次化的Drawable集合，通过将不同的drawable放置在不同的层上面从而达到一种叠加后的效果；`系统将会按这些Drawable对象的数组顺序来绘制他们`，`索引最大的Drawable对象将会被绘制在最上面`；
 ### StateListDrawable
 [StateListDrawable](https://github.com/ningbaoqi/Resources/commit/f7c1dcb1beaca0b2341a81e534e8e74ce687a17c)；表示Drawable的集合，每个Drawable都对应着View的一个状态，这样系统就会根据View的状态来选择合适的Drawable；
+### LevelListDrawable
+[LevelListDrawable](https://github.com/ningbaoqi/Resources/commit/e548a12176c926155cba31be9e4e7f4bd80455dd)；表示一个Drawable的集合，集合中的每个Drawable都有一个等级的概念，根据不同的等级，LevelListDrawable会切换为对应的Drawable；
