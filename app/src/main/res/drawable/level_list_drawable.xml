@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--当作为View的背景时，可以通过Drawable的setLevel方法来设置不同的等级从而切换具体的Drawable，如果它用来作为ImageView的前景Drawable，还可以通过ImageView的setImageLevel方法来切换Drawable，最后Drawable的等级是有限制的，0~10000，最小等级为0，也是默认值；最大等级为10000-->
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/ic_launcher_background"
+        android:maxLevel="0" />
+    <item
+        android:drawable="@drawable/ic_launcher_background"
+        android:maxLevel="1" />
+</level-list>
