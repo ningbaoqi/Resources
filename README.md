@@ -17,3 +17,39 @@
 |`InputStream openRawResource(int id)`|`获取XML文档对应的输入流`|
 
 + 当处于某个元素处时，可`调用XmlPullParser的getAttributeValue()方法来获取该元素的属性值`，`也可调用XmlPullParser的nextText()方法来获取文本节点的值`；
+
+```
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Button button = new Button(this);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                XmlResourceParser parser = getResources().getXml(R.xml.books);
+                try {
+                    StringBuilder stringBuilder = new StringBuilder("");
+                    while (XmlResourceParser.END_DOCUMENT != parser.getEventType()) {
+                        if (parser.getEventType() == XmlResourceParser.START_TAG) {
+                            String tagName = parser.getName();
+                            if (tagName.equals("book")) {
+                                String bookName = parser.getAttributeValue(null, "pice");
+                                stringBuilder.append("价格" + bookName);
+                                String bookPrice = parser.getAttributeValue(1);
+                                stringBuilder.append("出版日期" + bookPrice + "署名" + parser.nextText());
+                            }
+                            stringBuilder.append("\n");
+                        }
+                        parser.next();
+                    }
+                } catch (Exception e) {
+                    
+                }
+            }
+        });
+    }
+}
+```
